@@ -141,3 +141,9 @@ footer {
     text-align: center;
     font-size: 20px;
 }
+
+.foot img {
+    height: 10px;
+    width: 10px;
+    margin-left: 30px;
+}
