@@ -1,0 +1,126 @@
+body {
+    margin:0;
+    padding:0;
+    height: 100%;
+    background: linear-gradient(90deg, #8A2387, #E94057, #F27121);
+    animation: gradient 10s linear infinite;
+    background-size: 200% 200%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    
+    50% {
+        background-position: 100% 50%;
+    }
+    
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img{
+    height: 100px;
+    width: 100px;
+    margin-left: 30px;
+}
+
+
+.open {
+    background-color: white;
+    color: black;
+    width: 100px;
+    height: 50px;
+    margin-top: 25px;
+    margin-right: 50px;
+    border-radius: 15px;
+    transition-duration: 0.5s;
+    border: none;
+}
+
+.open:hover {
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 50px;
+    margin-top: 25px;
+    margin-right: 50px;
+    transition-duration: 0.5s;
+    margin-bottom: 5px;
+}
+
+main {
+    width:100%;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section {
+    display: flex;
+    width: 75%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.count {
+    justify-content: flex-start;
+    width: 450px;
+    height: 250px;
+    color: white;
+    font-size: 30px;
+}
+
+.download {
+    justify-content: center;
+    width: 450px;
+    height: 250px;
+    color: white;
+    font-size: 30px;
+}
+
+.registr {
+    justify-content: flex-end;
+    width: 450px;
+    height: 250px;
+    color: white;
+    font-size: 30px;
+}
+
+.countbox1 {
+    width: 100px;
+    height: 50px;
+    background: white;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: auto;
+}
+
+.countbox2 {
+    width: 100px;
+    height: 50px;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.countbox3 {
+    width: 100px;
+    height: 50px;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}

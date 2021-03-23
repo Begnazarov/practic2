@@ -1,0 +1,73 @@
+body {
+    margin:0;
+    padding:0;
+    height: 100%;
+    background: linear-gradient(90deg, #FC5C7D, #6A82FB);
+    animation: gradient 10s linear infinite;
+    background-size: 200% 200%;
+    font-family: 'Century Gothic', monospace;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+    
+    50% {
+        background-position: 100% 50%;
+    }
+    
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+a {
+    text-decoration-line: none;
+    color: black;
+}
+
+.container {
+    width: 400px;
+    height: 800px;
+    background: white;
+    margin: 100px auto 0 auto;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.labelcom {
+    padding-top: 150px;
+    font-size: 30px;
+}
+
+form {
+    padding-top: 150px;
+}
+
+input[type="text"],
+input[type="password"]{
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 1px solid black;
+    padding-left: 10px;
+}
+
+.dws-submit {
+    background: white;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.dws-submit:hover {
+    background: linear-gradient(90deg, #FC5C7D, #6A82FB);
+    animation: gradient 2s linear infinite;
+    background-size: 200% 200%;
+}
